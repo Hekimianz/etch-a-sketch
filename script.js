@@ -1,7 +1,7 @@
 let gridContainer = document.querySelector(".gridContainer");
 let newGridSide = 16;
 let newGrid = newGridSide * newGridSide;
-let newSize = (500 / newGridSide) + "px";
+let newSize = (700 / newGridSide) + "px";
 function main() {
     // Make a grid of divs
 
@@ -39,7 +39,7 @@ function main() {
                 let gridElem = document.createElement("div");
                 gridContainer.appendChild(gridElem);
                 gridElem.classList.add("square")
-                newSize = (500 / newGridSide);
+                newSize = (700 / newGridSide);
 
                 gridElem.style.width = `${newSize}px`;
                 gridElem.style.height = `${newSize}px`;
@@ -65,8 +65,8 @@ function main() {
 
     // set the starting size
     for (let i = 0; i < square.length; i++) {
-        square[i].style.width = "31.25px";
-        square[i].style.height = "31.25px";
+        square[i].style.width = "43.75px";
+        square[i].style.height = "43.75px";
     }
 }
 

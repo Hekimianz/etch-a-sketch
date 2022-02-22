@@ -1,23 +1,57 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 .mainContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
-    padding-bottom: 80px;
+    background-color: #BA191E;
+    justify-content: center;
+    padding: 0;
+    margin: 100px;
+    border-radius: 50px;
+
 }
 
 .gridContainer{
     display: flex;
-    display: flex;
     flex-wrap: wrap;
     background-color: #f4f4f4;
-    width: 500px;
-    height: 500px;
-    
+    width: 700px;
+    height: 700px;
+    margin: 0px 100px 50px 0px;
 }
 
 .gridContainer div{
     background-color: white;
-    
 }
 
+.screen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 0;
+}
+
+img{
+    width: 150px;
+    height: 100px;
+}
+
+.circles{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.circle1, .circle2{
+    background-color: #cecece;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+}
