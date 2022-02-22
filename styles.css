@@ -1,0 +1,24 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding-bottom: 80px;
+}
+
+.gridContainer{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4f4f4;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.gridContainer div{
+    background-color: white;
+    width: 31.25px;
+    height: 31.25px;
+}
+
