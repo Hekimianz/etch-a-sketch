@@ -11,8 +11,9 @@ body{
     background-color: #BA191E;
     justify-content: center;
     padding: 0;
-    margin: 100px;
+    margin: 50px 100px 0px 100px;
     border-radius: 50px;
+   
 
 }
 
@@ -25,9 +26,7 @@ body{
     margin: 0px 100px 50px 0px;
 }
 
-.gridContainer div{
-    background-color: white;
-}
+
 
 .screen{
     display: flex;
@@ -54,4 +53,36 @@ img{
     height: 125px;
     width: 125px;
     border-radius: 50%;
+}
+
+button{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    background-color: #FDE72E;
+    color: #192b52;
+    border: 4px solid #fdb00a;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    width: 124.13px;
+    height: 49px;
+
+}
+ .btns{
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 0 15px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
